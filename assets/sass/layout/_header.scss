@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none   ;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    .contact-section {
+        background-color: #007878;
+        ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .continer {
+
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .number {
+                display: flex;
+                gap: 20px;
+                a{
+                    color: white;
+                }
+            }
+
+            .termo {
+                ul {
+                    margin: 15px 0;
+                    list-style-type: none;
+                    display: flex;
+                    // gap: 20px;
+
+                    li {
+                        color: rgba(255, 255, 255, 0.75);
+                        padding: 0 15px;
+                        border-right: 1px solid white;
+                    }
+
+                    li:last-child {
+                        border: none;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .snabella {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .continer-snabel {
+
+            width: 80%;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .snabel {
+                h1 {
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+
+            }
+
+            .search-sign {
+                width: 70%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .search {
+                    position: relative;
+
+                    input {
+                        background-color: #F7F9FC;
+                        padding: 20px;
+                        height: 48px;
+                        width: 504px;
+                    }
+
+                }
+
+                img {
+                    position: absolute;
+                    right: 530px;
+                }
+
+                .sign {
+                    display: flex;
+                    gap: 20px;
+
+                    .log {
+                        a {
+                            text-decoration: none;
+                            color: black;
+                        }
+
+                        i {
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .bogs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .bog-continer{
+            width: 80%;
+            display: flex;
+            gap: 20px;
+            .bog{
+               padding: 10px 0;
+               a{
+                color:#273142;
+               }
+            }
+        }
+    }
+}
