@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none   ;
+    text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
 
 nav {
     .contact-section {
         background-color: #007878;
-        ;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -25,7 +24,8 @@ nav {
             .number {
                 display: flex;
                 gap: 20px;
-                a{
+
+                a {
                     color: white;
                 }
             }
@@ -53,7 +53,7 @@ nav {
     }
 
     .snabella {
-        
+
         display: flex;
         align-items: center;
         justify-content: center;
@@ -82,6 +82,8 @@ nav {
 
                 .search {
                     position: relative;
+                    display: flex;
+                    align-items: center;
 
                     input {
                         background-color: #F7F9FC;
@@ -89,13 +91,14 @@ nav {
                         height: 48px;
                         width: 504px;
                     }
+                    img {
+                        position: absolute;
+                       right: 15px;
+                    }
 
                 }
 
-                img {
-                    position: absolute;
-                    right: 530px;
-                }
+               
 
                 .sign {
                     display: flex;
@@ -116,19 +119,22 @@ nav {
         }
     }
 
-    .bogs{
+    .bogs {
         display: flex;
         align-items: center;
         justify-content: center;
-        .bog-continer{
+
+        .bog-continer {
             width: 80%;
             display: flex;
             gap: 20px;
-            .bog{
-               padding: 10px 0;
-               a{
-                color:#273142;
-               }
+
+            .bog {
+                padding: 10px 0;
+
+                a {
+                    color: #273142;
+                }
             }
         }
     }

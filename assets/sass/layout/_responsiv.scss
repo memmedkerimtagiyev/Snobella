@@ -1,0 +1,30 @@
+@media screen and (max-width:700px) {
+    #featured-bogs{
+        flex-direction: column;
+    }
+    #bestseller{
+        .continer{
+            .boxs{
+                flex-direction: column;
+            }
+        }
+
+    }
+    #discount{
+        .continer{
+            .boxs{
+                flex-direction: column;
+            }
+        }
+    }
+    footer{
+        #footer-start{
+            .continer{
+                .box{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}

@@ -7,7 +7,6 @@
     align-items: center;
 
     .continer {
-        //  background-color: aquamarine;
         width: 80%;
         display: flex;
         justify-content: space-between;
@@ -15,9 +14,7 @@
 
 
         .handbag {
-            //  border: 1px solid;
             gap: 20px;
-            //background-color: beige;
             display: flex;
             flex-direction: column;
 
@@ -39,11 +36,9 @@
                 font-size: 40px;
                 line-height: 170%;
                 color: #212121;
-                //  border: 1px solid;
             }
 
             p {
-                //border: 1px solid;
                 width: 453px;
                 height: 81px;
                 color: #FFE2E0;
@@ -101,7 +96,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 144px;
+  min-height: 144px;
 
     .continer {
         display: flex;
@@ -133,7 +128,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 900px;
+    min-height: 900px;
 
     .continer {
         display: flex;
@@ -144,7 +139,7 @@
             margin-bottom: 50px;
             display: flex;
             justify-content: space-between;
-            align-items: center;
+           align-items: center;
 
             .cart {
                 overflow: hidden;
@@ -310,6 +305,7 @@
                         font-size: 20px;
                         font-family: 'Poppins', sans-serif;
                         font-weight: 500;
+                        cursor: pointer;
 
                     }
                 }
@@ -322,7 +318,6 @@
                 padding: 20px;
                 position: relative;
                 background-color: #F9F9F9;
-
                 .cart {
 
                     .naw-heart-picture {
@@ -400,7 +395,7 @@
                         font-size: 20px;
                         font-family: 'Poppins', sans-serif;
                         font-weight: 500;
-
+                        cursor: pointer;
                     }
                 }
             }
@@ -502,6 +497,7 @@
                         font-size: 20px;
                         font-family: 'Poppins', sans-serif;
                         font-weight: 500;
+                        cursor: pointer;
 
                     }
                 }
@@ -651,7 +647,7 @@
                         font-size: 20px;
                         font-family: 'Poppins', sans-serif;
                         font-weight: 500;
-
+                        cursor: pointer;
                     }
                 }
             }
@@ -741,7 +737,7 @@
                         font-size: 20px;
                         font-family: 'Poppins', sans-serif;
                         font-weight: 500;
-
+                        cursor: pointer;
                     }
                 }
             }
@@ -845,7 +841,7 @@
                         font-size: 20px;
                         font-family: 'Poppins', sans-serif;
                         font-weight: 500;
-
+                        cursor: pointer;
                     }
                 }
             }
@@ -1001,7 +997,7 @@
                         font-size: 20px;
                         font-family: 'Poppins', sans-serif;
                         font-weight: 500;
-
+                        cursor: pointer;
                     }
                 }
             }

@@ -62,6 +62,8 @@ nav .snabella .continer-snabel .search-sign {
 }
 nav .snabella .continer-snabel .search-sign .search {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 nav .snabella .continer-snabel .search-sign .search input {
   background-color: #F7F9FC;
@@ -69,9 +71,9 @@ nav .snabella .continer-snabel .search-sign .search input {
   height: 48px;
   width: 504px;
 }
-nav .snabella .continer-snabel .search-sign img {
+nav .snabella .continer-snabel .search-sign .search img {
   position: absolute;
-  right: 530px;
+  right: 15px;
 }
 nav .snabella .continer-snabel .search-sign .sign {
   display: flex;
@@ -187,7 +189,7 @@ nav .bogs .bog-continer .bog a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 144px;
+  min-height: 144px;
 }
 #delivery .continer {
   display: flex;
@@ -213,7 +215,7 @@ nav .bogs .bog-continer .bog a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 900px;
+  min-height: 900px;
 }
 #featured .continer {
   display: flex;
@@ -363,6 +365,7 @@ nav .bogs .bog-continer .bog a {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
 #featured .continer #featured-bogs .cart-continer2 {
   width: 360px;
@@ -432,6 +435,7 @@ nav .bogs .bog-continer .bog a {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
 #featured .continer #featured-bogs .cart-continer3 {
   width: 360px;
@@ -514,6 +518,7 @@ nav .bogs .bog-continer .bog a {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
 
 #bestseller {
@@ -633,6 +638,7 @@ nav .bogs .bog-continer .bog a {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
 #bestseller .continer .boxs .cart-continer2 {
   width: 360px;
@@ -702,6 +708,7 @@ nav .bogs .bog-continer .bog a {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
 #bestseller .continer .boxs .cart-continer3 {
   width: 360px;
@@ -785,6 +792,7 @@ nav .bogs .bog-continer .bog a {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
 
 #discount {
@@ -916,6 +924,7 @@ nav .bogs .bog-continer .bog a {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
 
 footer #footer-start {
@@ -924,12 +933,12 @@ footer #footer-start {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 546px;
 }
 footer #footer-start .continer {
   width: 80%;
   display: flex;
   flex-direction: column;
-  height: 546px;
 }
 footer #footer-start .continer .snobella {
   display: flex;
@@ -957,18 +966,19 @@ footer #footer-start .continer .box {
   margin: 40px 0;
   display: flex;
   justify-content: space-between;
-  height: 100%;
 }
 footer #footer-start .continer .box .contact {
   display: flex;
   flex-direction: column;
   gap: 50px;
   width: 326px;
-  height: 100%;
 }
-footer #footer-start .continer .box .contact p,
-footer #footer-start .continer .box .contact .mail,
-footer #footer-start .continer .box .contact .phone {
+footer #footer-start .continer .box .contact p {
+  color: rgba(33, 33, 33, 0.75);
+  font-size: 16px;
+  line-height: 170%;
+}
+footer #footer-start .continer .box .contact .mail a, footer #footer-start .continer .box .contact .phone a {
   color: rgba(33, 33, 33, 0.75);
   font-size: 16px;
   line-height: 170%;
@@ -1024,13 +1034,13 @@ footer #footer-end {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 72px;
 }
 footer #footer-end #continer {
   width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 72px;
 }
 footer #footer-end #continer .date p {
   color: rgba(33, 33, 33, 0.75);
@@ -1046,139 +1056,18 @@ footer #footer-end #continer .social-media i {
   font-size: 21px;
 }
 
-#featured-products {
-  background-color: #fff;
-  margin-bottom: 96px;
-  padding: 0 30px;
-}
-#featured-products .featured-container {
-  max-width: 1128px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-#featured-products .featured-container .featured-header {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 32px;
-}
-#featured-products .featured-container .featured-header .header-text {
-  font-family: "Rubik", sans-serif;
-  font-size: 32px;
-  font-weight: 500;
-}
-#featured-products .featured-container .featured-header .product-view {
-  display: flex;
-  align-items: center;
-}
-#featured-products .featured-container .featured-header .product-view p {
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  margin-right: 15px;
-}
-#featured-products .featured-container .featured-header .product-view img {
-  height: 25px;
-}
-#featured-products .featured-container .featured-bags {
-  max-width: 100%;
-  display: flex;
-  gap: 24px;
-}
-#featured-products .featured-container .featured-bags .featuredBag {
-  min-height: 90%;
-  width: 33.333%;
-  border-radius: 8px;
-  background-color: #f9f9f9;
-}
-#featured-products .featured-container .featured-bags .featuredBag .featured-container {
-  width: 90%;
-}
-#featured-products .featured-container .featured-bags .featuredBag .featured-container .bags-picture {
-  display: flex;
-  flex-direction: column;
-  margin-top: 16px;
-  align-items: center;
-  justify-content: center;
-}
-#featured-products .featured-container .featured-bags .featuredBag .featured-container .bags-picture .bags-sale {
-  width: 100%;
-  height: 33px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#featured-products .featured-container .featured-bags .featuredBag .featured-container .bags-picture .bags-sale .new {
-  height: 32px;
-  width: 79px;
-  border-radius: 8px;
-  background-color: #43d167;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-}
-#featured-products .featured-container .featured-bags .featuredBag .featured-container .bags-picture .bags-sale .new-sale {
-  width: 79px;
-  height: 32px;
-  background-color: #df4244;
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 8px;
-}
-#featured-products .featured-container .featured-bags .featuredBag .featured-container .bags-picture .bag-img {
-  margin: 0 auto;
-  height: 219px;
-  display: flex;
-  align-items: flex-end;
-}
-#featured-products .featured-container .featured-bags .featuredBag .featured-container .featured-stars {
-  margin-top: 25px;
-  margin-bottom: 18px;
-  display: flex;
-  gap: 7px;
-}
-#featured-products .featured-container .featured-bags .featuredBag .featured-container .featured-content {
-  display: flex;
-  flex-direction: column;
-}
-#featured-products .featured-container .featured-bags .featuredBag .featured-container .featured-content .featured-content-text {
-  font-family: "Rubik", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 27px;
-}
-#featured-products .featured-container .featured-bags .featuredBag .featured-container .featured-content .featured-price {
-  display: flex;
-  gap: 18px;
-  font-family: "Poppins", sans-serif;
-  margin-top: 16px;
-  align-items: center;
-}
-#featured-products .featured-container .featured-bags .featuredBag .featured-container .featured-content .featured-price .new-price {
-  font-size: 20px;
-  font-weight: 600;
-  color: #f75145;
-}
-#featured-products .featured-container .featured-bags .featuredBag .featured-container .featured-content .featured-price .last-price {
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(54, 54, 54, 0.7490196078);
-}
-
-#featured-products.Bestseller {
-  background-color: #FFF7F7;
-  padding: 72px 30px;
-}
-#featured-products.Bestseller .featuredBag {
-  background-color: #FFF !important;
+@media screen and (max-width: 700px) {
+  #featured-bogs {
+    flex-direction: column;
+  }
+  #bestseller .continer .boxs {
+    flex-direction: column;
+  }
+  #discount .continer .boxs {
+    flex-direction: column;
+  }
+  footer #footer-start .continer .box {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=main.css.map */
